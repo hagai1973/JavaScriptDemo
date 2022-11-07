@@ -1,0 +1,16 @@
+h1 {
+  font-size: 8.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.container button,
+.container input {
+  font-size: 5rem;
+  text-align: center;
+}
