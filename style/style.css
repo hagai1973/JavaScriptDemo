@@ -27,3 +27,10 @@ h1 {
   margin: auto;
   margin-bottom: 10rem;
 }
+
+#showMap {
+  width: 1200px;
+  height: 1200px;
+  display: none;
+  margin: auto;
+}
