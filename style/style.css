@@ -12,5 +12,18 @@ h1 {
 .container button,
 .container input {
   font-size: 5rem;
-  text-align: center;
+  text-align: left;
+}
+
+.box {
+  background-color: lightcyan;
+  margin: 10.5rem;
+  border: 3px solid gray;
+  padding: 5px;
+}
+
+.container img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10rem;
 }

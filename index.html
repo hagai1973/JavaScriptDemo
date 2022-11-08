@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="favicon.png" />
     <script src="index.js"></script>
     <title>JavaScript Demo</title>
   </head>
@@ -12,19 +13,23 @@
     <h1>JavaScript Demo</h1>
 
     <div class="container">
-      <p>Enter a number and click OK:</p>
+      <p>Enter your name and click OK:</p>
 
-      <input id="text1" type="text" required />
-      <button onclick="myFunction()">OK</button>
-      <button>Clear</button>
+      <input id="num1" type="number" required />
+      <input id="num2" type="number" required />
+      <button onclick="sumNumber()">OK</button>
+      <button onclick="set_text()">Clear</button>
 
-      <p>
+      <p class="box">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga molestiae
         explicabo consequuntur fugiat eaque magnam, ut iusto suscipit, ad a odio
         vitae maiores labore. Quam sint ex tenetur esse excepturi?
       </p>
 
       <p id="demo"></p>
+
+      <img id="bulb" src="img/pic_bulboff.gif" alt="bulb off" />
+      <button onclick="change_img_src()">Click me</button>
     </div>
   </body>
 </html>
