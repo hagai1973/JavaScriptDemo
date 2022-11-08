@@ -1,5 +1,15 @@
 console.log("Hello World");
 
+function checkAge() {
+  let age = document.getElementById("age").valueAsNumber;
+
+  if (age >= 18) {
+    document.getElementById("result").innerHTML = "Adult";
+  } else {
+    document.getElementById("result").innerHTML = "Young";
+  }
+}
+
 // let your_age = Number(prompt("What is your age"));
 
 // if (your_age > 18) alert("You are adult");

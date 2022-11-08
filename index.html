@@ -13,18 +13,14 @@
     <h1>JavaScript Demo</h1>
 
     <div class="container">
-      <p>Enter your name and click OK:</p>
+      <p>Enter your AGE and click OK:</p>
 
-      <input id="num1" type="number" required />
-      <input id="num2" type="number" required />
-      <button onclick="sumNumber()">OK</button>
-      <button onclick="set_text()">Clear</button>
+      <input id="age" type="number" required />
+      <!-- <input id="num2" type="number" required /> -->
+      <button onclick="checkAge()">Check</button>
+      <button>Clear</button>
 
-      <p class="box">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga molestiae
-        explicabo consequuntur fugiat eaque magnam, ut iusto suscipit, ad a odio
-        vitae maiores labore. Quam sint ex tenetur esse excepturi?
-      </p>
+      <p id="result" class="box">VERIFIED</p>
 
       <p id="demo"></p>
 
