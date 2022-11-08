@@ -1,4 +1,15 @@
-console.log("Hello World");
+// console.log("Hello World");
+
+function checkBirthYear() {
+  const currentDate = new Date();
+  let currentYear = currentDate.getFullYear();
+  let customerYear = document.getElementById("birthYear").valueAsNumber;
+  if (currentYear - customerYear >= 18) {
+    document.getElementById("result").innerHTML = "Adult";
+  } else {
+    document.getElementById("result").innerHTML = "Young";
+  }
+}
 
 function checkAge() {
   let age = document.getElementById("age").valueAsNumber;
